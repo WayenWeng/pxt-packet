@@ -1,18 +1,15 @@
 {
-    "name": "packet",
-    "version": "0.0.0",
-    "description": "Packet test",
+    "name": "pxt-sonar",
+    "version": "0.0.2",
+    "description": "A PXT package to use sonar sensors such as the HC-SR04",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
         "main.ts"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": [],
     "public": true
 }
