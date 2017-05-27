@@ -1,4 +1,4 @@
-# pxt-sonar
+# pxt-packet
 A PXT package to use sonar sensors (ping) such as the HC-SR04
 
 ## License

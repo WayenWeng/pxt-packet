@@ -11,7 +11,7 @@ enum PingUnit {
  * Sonar and ping utilities
  */
 //% weight=10
-namespace sonar {
+namespace packet {
     /**
      * Send a ping and get the echo time (in microseconds) as a result
      * @param trig tigger pin
