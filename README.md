@@ -1,6 +1,6 @@
 # packet
 
-packet test
+Packet test
 
 ## License
 
