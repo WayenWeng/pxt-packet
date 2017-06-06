@@ -9,6 +9,13 @@ enum SINGLE_PIXEL_TYPE {
     OFF = 0
 }
 
+enum MATRIX_PIXEL_TYPE {
+    //% block=*
+    ON = 1,
+    //% block=.
+    OFF = 0
+}
+
 /**
  * Functions to operate packet test.
  */
@@ -39,12 +46,23 @@ namespace packet {
      * @param para1 
      * @param para2 
      */
-    //% blockId=test_matrix block="test matrix|%para1 %para2|%para3 %para4"
+    //% blockId=test_matrix block="test matrix %para1 %para2|%para3 %para4"
     //% blockExternalInputs=true
     export function testMatrix(para1: SINGLE_PIXEL_TYPE, para2: SINGLE_PIXEL_TYPE, para3: SINGLE_PIXEL_TYPE, para4: SINGLE_PIXEL_TYPE) 
     {
         para1 = para2;
         para3 = para4;
+    }
+    
+    /**
+     * Test matrix 2
+     * @param para
+     */
+    //% blockId=test_matrix block="test matrix 2|%para"
+    //% blockExternalInputs=true
+    export function testMatrix2(para: ImageLiteral) 
+    {
+
     }
     
     /**
