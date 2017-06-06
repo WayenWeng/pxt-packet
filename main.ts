@@ -46,7 +46,7 @@ namespace packet {
      * @param para1 
      * @param para2 
      */
-    //% blockId=test_matrix block="test matrix %para1 %para2|%para3 %para4"
+    //% blockId=test_matrix block="test matrix|%para1|%para2|%para3|%para4"
     //% blockExternalInputs=true
     export function testMatrix(para1: number, para2: number, para3: number, para4: number) 
     {
