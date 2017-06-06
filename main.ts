@@ -5,7 +5,7 @@
 enum SINGLE_PIXEL_TYPE {
     //% block=*
     ON = 1,
-    //% block= 
+    //% block=.
     OFF = 0
 }
 
