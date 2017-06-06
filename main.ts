@@ -48,6 +48,7 @@ namespace packet {
      */
     //% blockId=test_matrix block="test matrix|%para1|%para2|%para3|%para4"
     //% blockExternalInputs=true
+    //% imageLiteral=1
     export function testMatrix(para1: number, para2: number, para3: number, para4: number) 
     {
         para1 = para2;
