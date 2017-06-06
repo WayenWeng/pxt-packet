@@ -39,7 +39,7 @@ namespace packet {
      * @param para1 
      * @param para2 
      */
-    //% blockId=test_matrix block="%strip|test matrix %para1%para2"
+    //% blockId=test_matrix block="%strip|test matrix %para1|%para2"
     export function testMatrix(para1: SINGLE_PIXEL_TYPE, para2: SINGLE_PIXEL_TYPE) {
         para1 = para2;
     }
