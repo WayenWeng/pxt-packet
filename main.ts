@@ -43,4 +43,22 @@ namespace packet {
     export function testMatrix(para1: SINGLE_PIXEL_TYPE, para2: SINGLE_PIXEL_TYPE) {
         para1 = para2;
     }
+    
+    /**
+     * Test string 
+     * @param para
+     */
+    //% blockId=test_string block="%strip|test strig %para"
+    export function testString(para: string) {
+        
+    }
+    
+    /**
+     * Test buffer 
+     * @param para
+     */
+    //% blockId=test_buffer block="%strip|test buffer %para"
+    export function testBuffer(para: Buffer) {
+        
+    }
 }
