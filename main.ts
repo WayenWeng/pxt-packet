@@ -55,17 +55,6 @@ namespace packet {
     }
     
     /**
-     * Test matrix 2
-     * @param para
-     */
-    //% blockId=test_matrix block="test matrix 2|%para"
-    //% blockExternalInputs=true
-    export function testMatrix2(para: ImageLiteral) 
-    {
-
-    }
-    
-    /**
      * Test string 
      * @param para
      */
