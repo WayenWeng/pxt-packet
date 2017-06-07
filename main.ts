@@ -69,7 +69,7 @@ namespace packet {
      * @param para
      */
     //% blockId=test_buffer block="test buffer %para"
-    export function testBuffer(para: Buffer) {
+    export function testBuffer(para: number[]) {
         
     }
 }
