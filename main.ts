@@ -5,28 +5,28 @@
 //% weight=5 color=#2699BF icon="\uf110"
 namespace packet {    
     /**
-     * Test item 1
+     * Test item a
      */
-    //% blockId=test_item_1 block="test item 1"
-    export function testItem1() 
+    //% blockId=test_item_a block="test item a"
+    export function testItemA() 
     {
 
     }
     
     /**
-     * Test item 4
+     * Test item b
      */
-    //% blockId=test_item_4 block="test item 4"
-    export function testItem4() 
+    //% blockId=test_item_b block="test item b"
+    export function testItemB() 
     {
 
     }
     
     /**
-     * Test item 3
+     * Test item c
      */
-    //% blockId=test_item_3 block="test item 3"
-    export function testItem3() 
+    //% blockId=test_item_c block="test item c"
+    export function testItemC() 
     {
 
     }
