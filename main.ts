@@ -38,4 +38,13 @@ namespace packet {
     {
 
     }
+    
+    /**
+     * Test item e
+     */
+    //% blockId=test_item_e block="test item e"
+    export function testItemE() 
+    {
+
+    }
 }
