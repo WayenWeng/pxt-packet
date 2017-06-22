@@ -14,10 +14,10 @@ namespace packet {
     }
     
     /**
-     * Test item 2
+     * Test item 4
      */
-    //% blockId=test_item_2 block="test item 2"
-    export function testItem2() 
+    //% blockId=test_item_4 block="test item 4"
+    export function testItem4() 
     {
 
     }
